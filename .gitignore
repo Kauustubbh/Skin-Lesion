@@ -1,0 +1,23 @@
+# Data (re-downloaded via Kaggle API each session, not tracked)
+data/*
+!data/.gitkeep
+
+# Trained model weights (large binaries, share via Drive instead)
+models/*
+!models/.gitkeep
+*.pth
+*.h5
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+env/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
